@@ -24,6 +24,7 @@ public final class AntiTNT extends JavaPlugin implements EventListener {
 
        if (block.getType() == Material.TNT) {
            e.setCancelled(true);
+           player.kickPlayer("TNT Placed, you are the reason for our problems");
        }
     }
 
