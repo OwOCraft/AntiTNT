@@ -1,6 +1,7 @@
 package com.logzinga.antitnt;
 
 import org.bukkit.Material;
+import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.type.TNT;
 import org.bukkit.entity.Player;
