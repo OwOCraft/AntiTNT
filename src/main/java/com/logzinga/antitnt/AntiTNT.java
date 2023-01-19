@@ -23,7 +23,7 @@ public final class AntiTNT extends JavaPlugin implements EventListener {
        Player player = e.getPlayer();
 
        if (block.getType() == Material.TNT) {
-           e.isCancelled();
+           e.setCancelled(true);
        }
     }
 
