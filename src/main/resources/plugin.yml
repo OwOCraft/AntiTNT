@@ -1,0 +1,4 @@
+name: AntiTNT
+version: '${project.version}'
+main: com.logzinga.antitnt.AntiTNT
+api-version: 1.19
