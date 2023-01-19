@@ -20,9 +20,10 @@ public final class AntiTNT extends JavaPlugin implements EventListener {
     }
     @EventHandler
     public void onPlace(BlockPlaceEvent e) {
-      Block block = e.getBlockPlaced();
+      Block block = e.getBlock();
       Player player = e.getPlayer();
-      if (block.getType() == Material.TNT) {
+      Material getBlockType = block.getType();
+      if (getBlockType == Material.TNT) {
           e.setCancelled(true);
           player.kickPlayer("TNT Placed");
       }
