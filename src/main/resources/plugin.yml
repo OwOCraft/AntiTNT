@@ -2,3 +2,7 @@ name: AntiTNT
 version: '${project.version}'
 main: com.logzinga.antitnt.AntiTNT
 api-version: 1.19
+commands:
+  antitntabout:
+    description: About AntiTNT
+    usage:  /<command>
